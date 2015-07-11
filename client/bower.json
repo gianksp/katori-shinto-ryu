@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "homepage": "https://github.com/gianksp/katori-shinto-ryu",
+  "authors": [
+    "Giancarlo Sanchez <g.sanchez@glofox.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "oclazyload": "~1.0.9"
+  }
+}

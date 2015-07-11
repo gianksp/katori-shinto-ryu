@@ -9,6 +9,18 @@
 
 -----------------------------------------------------------------------------------*/
 
+#container-v {
+	position: relative;
+	overflow: hidden;
+}
+
+#container-v .content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-height:250px;
+	overflow: hidden;
+}
 
 dl, dt, dd, ol, ul, li {
 	margin: 0;
@@ -7418,7 +7430,7 @@ body:not(.device-touch) .button.button-full strong {
 .feature-box.fbox-plain.fbox-small .fbox-icon { width: 28px; }
 
 .feature-box.fbox-plain.fbox-small h3 {
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 26px;
 	margin-bottom: 10px;
 }
